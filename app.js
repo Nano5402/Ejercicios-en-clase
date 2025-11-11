@@ -26,19 +26,42 @@ let numero = 0
 
 // console.log(numeroPar);
 
-let dias = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"]
-let semana = ""
+// let dias = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"]
+// let semana = ""
 
-semana = "<ul>"
-for (let i = 0; i < dias.length; i++){
-  semana += "<li>" + dias[i] + "</li>"
-  // console.log(dias[i]);
-}
+// semana = "<ul>"
+// for (let i = 0; i < dias.length; i++){
+//   semana += "<li>" + dias[i] + "</li>"
+//   // console.log(dias[i]);
+// }
 
-semana += "</ul>"
+// semana += "</ul>"
 
-console.log(semana);
+// console.log(semana);
 
 // console.log(`<li>${dias[i]}</li>`);
+
+
+const persona = {
+  nombre: "Andrés Santiago",
+  apellido: "Calvete Lesmes",
+  edad: 20,
+  pasatiempos: ["Los videojuegos", "Dormir"],
+  soltero: true,
+  contacto: {
+    email: "santiagocalvete@gmail.com",
+    celular: 3174195112 + 3154831487,
+  },
+  saludar: function () {
+    console.log("Klk menolllll");
+    
+  }
+}
+console.log(persona.saludar());
+
+// console.log(Object.keys(persona));
+// console.log(Object.values(persona));
+
+console.log(persona.hasOwnProperty("nombres"));
 
 
